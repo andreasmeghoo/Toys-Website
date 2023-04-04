@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!--This makes the webpage responsive/mobile friendly-->
+	<title>Northumbria Toy Co. - Credits</title>
+	<link href="NTC_CSS.css" rel="stylesheet">
+</head> 
+<body>
+	<header>
+		<h1>Northumbria Toy Company - Credits</h1>
+	</header>
+	<nav>
+		<ol>
+			<li class="navlink"><a href="home.php">Home</a></li>           <!-- This creates a navigation bar -->
+			<li class="navlink"><a href="view_toys.php">View Toys</a></li>
+			<li class="navlink"><a href="admin.php">Admin</a></li>
+			<li class="navlink"><a href="credits.html">Credits</a></li>
+		</ol>
+	</nav>
+	<main>
+		<h2>Author's Details</h2>
+		<p>Name: Andreas Meghoo</p>
+		<p>ID: w21017158</p>
+		<p>Email Address: andreas.meghoo@northumbria.ac.uk</p>
+		<h2>Security Considerations</h2>
+		<p>
+		The Admin webpage uses the HTTP method "GET" to send user input to 
+		the database connected to the web server, because the intended
+		user input on this webpage is not of a sensitive nature. Therefore, 
+		it is not a significant security risk for the user input to be 
+		visible in the URL, which occurs when the GET method is used. The PHP
+		code involved in interfacing with the database is vulnerable to SQL
+		injection and therefore, should be modified to make use of parameterized
+		queries to ensure that the SQL queries are not modified to carry out an
+		unintended purpose. This would prevent database failure and data loss.
+		</p>
+		
+		
+		<p>
+		Users should read the form on the Admin webpage carefully to ensure
+		they are only entering the information requested and be cautious of
+		what is is in their clipboard if copy and pasting into the form so
+		that they do not enter sensitive information. Users should not input
+		sensitive information because this website uses the HTTP protocol,
+		so HTTP requests including user input are unencrypted. This means
+		if sensitive user input is intercepted by a hacker, it can be
+		quickly used for malicious purposes because the hacker does not
+		have to perform the time consuming process of decryption. Additionally,
+		users should not input sensitive information because the input is visible
+		in the URL due the use of the GET method. This means that sensitive
+		information will be stored in the history of the browser and can be
+		obtained without permission, by other users who use the same computer.
+		Furthermore, if a user bookmarks a page after submitting sensitive
+		information, this will cause the same security vulnerablity.
+		</p><br>
+		
+		
+		<h2>References</h2>
+		<p>W3Schools (2022) HTTP Request Methods. Available at: https://www.w3schools.com/tags/ref_httpmethods.asp (Accessed: 22 April 2022).</p>
+		<p>CloudFlare (2022) Why is HTTP not secure?. Available at: https://www.cloudflare.com/en-gb/learning/ssl/why-is-http-not-secure/ (Accessed: 22 April 2022).</p>
+		<p>Open Web Application Security Project (2021) SQL Injection Prevention Cheat Sheet. Available at: https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html (Accesed: 26 April 2022).</p>
+		<h2>Images Used</h2>
+		<p>Amazon (2022) Thomas & Friends 900 GPR20 EA Wooden Large Engine Edward, Multicolor. Available at: https://www.amazon.co.uk/Thomas-Friends-GPR20-Trains-Trams/dp/B084P14M8N (Accessed: 26 April 2022).</p>
+		<p>The Puppet Company (2022) Dog - Finger Puppets. Available at: https://www.thepuppetcompany.com/Finger-Puppets-Dog (Accessed: 26 April 2022).</p>
+		<p>Amazon (2022) Trademark Collections Disney Princess Sleeping Beauty Aurora Handbag. Available at: https://www.amazon.co.uk/Trademark-Collections-Princess-Sleeping-Handbag/dp/B005VO0AHS (Accessed: 26 April 2022). </p>
+		<p>Amazon (2022) Trademark Collections DPRIN004036 Disney Princess Purse. Available at: https://www.amazon.co.uk/Trademark-Collections-DPRIN004036-Disney-Princess/dp/B008ERRGSU (Accessed: 26 April 2022)</p>
+		<p>Amazon (2022) Star Wars The Black Series Hyperreal The Empire Strikes Back Luke Skywalker Toy. Available at: https://www.amazon.co.uk/Star-Wars-Hyperreal-Luke-Skywalker/dp/B07VM1RV26 (Accessed: 26 April 2022)</p>
+		<p>Ebay (2022) LARGE FUN INFLATABLE GOLD GUITAR BLOW UP FANCY DRESS PARTY MUSICAL INSTRUMENT. Available at: https://www.ebay.co.uk/itm/164753207277 (Accessed: 26 April 2022)</p>
+		<p>Desertcart (2022) Lion Games & Gifts Europe 11.5 g High Roller Value 1000 Chip (Yellow). Available at: https://guernsey.desertcart.com/products/52967330-lion-games-gifts-europe-11-5-g-high-roller-value-1000-chip-yellow (Accessed: 26 April 2022)</p>
+		<p>Amazon (2022) 4 X JUMBO PACK KIDS SNAP CARDS 13CM X 9CM APPROX 36 GREAT CARDS. Available at: https://www.amazon.co.uk/JUMBO-PACK-CARDS-APPROX-GREAT/dp/B011H3NUFK (Accessed: 26 April 2022)</p>
+		<p>Amazon (2022) Disney Trefl Planes Playing Cards. Available at: https://www.amazon.co.uk/Disney-Trefl-Planes-Playing-Cards/dp/B00JLG8H5E (Accessed: 26 April 2022)</p>
+		<p>The Tiny Toy Box (2021) Scarlet O Haira from Moshi Monsters Series 4 Moshlings. Available at: https://www.thetinytoybox.co.uk/scarlet-o-haira-from-moshi-monsters-series-4-moshlings-331-p.asp (Accessed: 26 April 2022)</p>
+	</main>
+	<aside>
+	</aside>
+	<footer>
+	</footer>
+
+</body> 
+</html>

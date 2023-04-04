@@ -1,0 +1,87 @@
+body {
+background-color: silver;
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+word-break: break-all;
+}
+
+
+h1{
+color: dimgray
+}
+
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+/*This styles the navigation bar*/
+nav ol {
+display: flex;
+flex-direction: row;
+background-color: dimgray;
+padding-left: 5%;
+padding-right: 5%;
+padding-bottom: 1%;
+padding-top: 1%;
+list-style: none;	
+justify-content: space-between;
+}
+
+.navlink {
+color: white;
+font-size: 18px;
+text-align: center;
+
+}
+
+/* This styles html links in all their states*/
+a:link, a:visited, a:hover, a:active{ 
+ text-decoration: none;
+ color: inherit;
+}
+
+
+/*This styles by class, divs on the home page
+containing toys.*/
+.product {
+display: inline-block;
+width: 255px;
+height: 285px;
+margin: 5px;
+background-color: white;
+vertical-align:middle;
+text-align: center;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.homemain{
+	float: left;
+	width: 65%
+}
+
+aside {
+	float: right;
+	width: 30%;
+	background-color: white;
+}
+
+/*This media query styles content on the home page when the
+screen size is less than or equal to 425 pixels (for phones).*/
+@media only screen and (max-width: 425px) {
+  aside {
+	  float: none;
+	  min-width: 100%;
+  }
+  
+ .homemain {
+	 float: none;
+	 min-width: 100%;
+}
+	
+}
